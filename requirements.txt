@@ -1,0 +1,14 @@
+python==3.9          #Python version 
+pyserial==3.5        # Serial communication for TFmini LiDAR sensors
+RPi.GPIO==0.7.1      # GPIO control for Raspberry Pi 5
+numpy==1.21.4        # Array processing for sensor data handling
+scipy==1.7.3         # Advanced math functions (for filtering noise)
+matplotlib==3.4.3    # Visualization of sensor data (optional)
+opencv-python==4.5.3.56  # (Optional) If using camera-based obstacle avoidance
+
+# MAVLink and MAVProxy dependencies
+pymavlink==2.4.30    # Python implementation of MAVLink (for drone communication)
+mavproxy==1.8.50     # MAVProxy ground control software (for controlling the drone)
+future==0.18.2       # Required for MAVProxy dependencies
+pyyaml==6.0.1        # YAML parsing for MAVProxy configuration
+
