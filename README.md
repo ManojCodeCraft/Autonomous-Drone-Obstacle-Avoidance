@@ -114,7 +114,6 @@ python main.py
 
 **Manoj Kumar**  
 Aspiring Software Developer & IoT Enthusiast
-- 📧 Email: [aulakagarimanojkumar@gmail.com](mailto:aulakagarimanojkumar@gmail.com)  
 - 🔗 LinkedIn: [linkedin.com/in/manoj-kumar-a-21ab69258](https://www.linkedin.com/in/manoj-kumar-a-21ab69258/)  
 - 💻 GitHub: [github.com/ManojCodeCraft](https://github.com/ManojCodeCraft)
 
