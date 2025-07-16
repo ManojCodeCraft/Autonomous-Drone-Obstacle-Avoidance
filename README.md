@@ -52,7 +52,7 @@ Autonomous-Drone-Obstacle-Avoidance/
 
 | Drone Hardware Setup        | Real-Time Obstacle Mapping    |
 |-----------------------------|-------------------------------|
-| ![Drone](images/drone.jpg)  | ![Mapping](images/lidar.png)  |
+|   |   |
 
 > *(Insert screenshots if available — code output, physical setup, etc.)*
 
