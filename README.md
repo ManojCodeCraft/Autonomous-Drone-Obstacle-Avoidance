@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-#Autonomous Drone Obstacle Avoidance
-
-Overview
-This project focuses on developing an autonomous drone capable of navigating complex terrains by dynamically adjusting its altitude to avoid obstacles and adapt to varying ground elevations. Utilizing real-time sensor data, the drone intelligently modifies its flight path to ensure safe and efficient traversal of environments with uneven terrain.​
-=======
->>>>>>> 77f7709822cda334c876e7b7ee76d40b147a1e48
-
 # 🛸 Autonomous Drone Obstacle Avoidance System
 
 GPS-enabled IoT Drone Project 
@@ -31,7 +23,6 @@ Developed during my undergraduate journey, this project served as an impactful d
 ---
 ## 📸 System Architecture
 
-![System Diagram](system_architecture.png)
 
 This diagram shows how LiDAR, GPS, and Raspberry Pi are integrated into the drone system.
 
@@ -114,7 +105,7 @@ python main.py
 
 ## 🎓 Built At – IIITDM Kurnool
 
-![IIITDM Kurnool](images/iiitdm_knl.jpg)
+![IIITDM Kurnool](images/IIITDM.jpg)
 
 > This project was developed during my undergraduate journey at **IIITDM Kurnool** as part of an IoT lab initiative.
 
