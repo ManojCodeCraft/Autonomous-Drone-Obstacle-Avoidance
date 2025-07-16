@@ -1,7 +1,7 @@
 
 # 🛸 Autonomous Drone Obstacle Avoidance System
 
-**A GPS-enabled IoT Drone Project 
+GPS-enabled IoT Drone Project 
 ---
 
 ## 🧠 Summary
@@ -16,7 +16,7 @@ Developed during my undergraduate journey, this project served as an impactful d
 
 | Category       | Details                                                   |
 |----------------|-----------------------------------------------------------|
-| **Hardware**   | Raspberry Pi 4, LiDAR Sensor (360°), GPS Module, Drone Frame |
+| **Hardware**   | Raspberry Pi 4, TFmini-S LiDAR Sensor (5), GPS Module, Drone Frame |
 | **Software**   | Python 3.x, RPi.GPIO, OpenCV, NumPy                        |
 | **Concepts**   | Real-Time Edge Processing, Obstacle Avoidance, IoT        |
 | **Tools**      | VS Code, Git, CLI                                          |
