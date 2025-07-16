@@ -1,4 +1,5 @@
 #Autonomous Drone Obstacle Avoidance
+
 Overview
 This project focuses on developing an autonomous drone capable of navigating complex terrains by dynamically adjusting its altitude to avoid obstacles and adapt to varying ground elevations. Utilizing real-time sensor data, the drone intelligently modifies its flight path to ensure safe and efficient traversal of environments with uneven terrain.​
 

@@ -20,7 +20,7 @@ FORWARD_VELOCITY = 0.7
 # Function to connect to the vehicle using MAVLink
 def connect_vehicle(connection_string='/dev/ttyACM0', baud_rate=57600):
     master = mavutil.mavlink_connection(connection_string, baud=baud_rate)
-    print("Waiting for heartbeat...")
+    print("Waiting for heartbeat...")A
     master.wait_heartbeat()
     print("Vehicle connected")
     return master

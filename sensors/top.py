@@ -1,7 +1,5 @@
 import serial
 import time
-
-# UART port for back LiDAR
 ser = serial.Serial("/dev/ttyAMA1", 115200, timeout=1)
 
 def get_lidar_distance():
