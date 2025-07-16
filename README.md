@@ -1,54 +1,134 @@
+<<<<<<< HEAD
 #Autonomous Drone Obstacle Avoidance
 
 Overview
 This project focuses on developing an autonomous drone capable of navigating complex terrains by dynamically adjusting its altitude to avoid obstacles and adapt to varying ground elevations. Utilizing real-time sensor data, the drone intelligently modifies its flight path to ensure safe and efficient traversal of environments with uneven terrain.​
+=======
+>>>>>>> 77f7709822cda334c876e7b7ee76d40b147a1e48
 
-Features
-Terrain-Adaptive Flight: The drone continuously assesses the terrain below and adjusts its height to maintain a safe distance from the ground, ensuring smooth navigation over hills, valleys, and other undulating landscapes.​
+# 🛸 Autonomous Drone Obstacle Avoidance System
 
-Obstacle Detection and Avoidance: Equipped with advanced sensors, the drone detects obstacles in its flight path and autonomously alters its trajectory to prevent collisions.​
+GPS-enabled IoT Drone Project 
+---
 
-Real-Time Sensor Integration: The system integrates data from various sensors to make immediate flight adjustments, enhancing responsiveness to sudden changes in the environment.​
+## 🧠 Summary
 
-Repository Structure
-sensors/: Contains modules responsible for interfacing with and processing data from the drone's sensors.​
+This project showcases a GPS-guided **autonomous drone** built using **Raspberry Pi**, **LiDAR sensors**, and **Python**, capable of detecting and avoiding obstacles in real-time.
 
-config/: Holds configuration files that define parameters for flight control, sensor thresholds, and other adjustable settings.​
+Developed during my undergraduate journey, this project served as an impactful demonstration of **IoT + Embedded Systems + Edge AI**, earning recognition in the **ISRO Challenge 2025**. It simulates real-world applications like disaster recovery, defense surveillance, and smart delivery systems.
 
-docs/: Includes documentation related to the project, such as system architecture diagrams and user manuals.​
+---
 
-main.py: The primary script that initializes the drone's systems and manages the flight control loop.​
+## 🔧 Technologies & Tools Used
 
-requirements.txt: Lists the Python dependencies necessary to run the project.​
+| Category       | Details                                                   |
+|----------------|-----------------------------------------------------------|
+| **Hardware**   | Raspberry Pi 4, TFmini-S LiDAR Sensor (5), GPS Module, Drone Frame |
+| **Software**   | Python 3.x, RPi.GPIO, OpenCV, NumPy                        |
+| **Concepts**   | Real-Time Edge Processing, Obstacle Avoidance, IoT        |
+| **Tools**      | VS Code, Git, CLI                                          |
 
-system_architecture.png: A visual representation of the system's architecture, illustrating the interaction between components.​
+---
+## 📸 System Architecture
 
-Getting Started
-Prerequisites
-Ensure you have Python installed on your system. The required Python packages are listed in requirements.txt.​
+![System Diagram](system_architecture.png)
 
-Installation
-Clone this repository:​
+This diagram shows how LiDAR, GPS, and Raspberry Pi are integrated into the drone system.
+
+
+## 🚀 Key Features
+
+- 🛰️ **GPS-Based Path Navigation**: Drone follows destination coordinates autonomously.
+- 🔍 **Real-Time Obstacle Avoidance**: Uses LiDAR to detect and avoid objects during flight.
+- ⚙️ **Modular Python Codebase**: Easy to integrate with new sensors or change flight logic.
+- 🧠 **Edge Computing**: Raspberry Pi handles all sensor inputs and decisions on-board.
+- 🏆 **ISRO Challenge 2025**: Qualified for the challenge demonstrating autonomous flight capabilities.
+
+---
+
+## 🗂️ Project Structure
+
+```
+Autonomous-Drone-Obstacle-Avoidance/
+├── Tests/                     # Video demonstration and test scenarios
+├── config/                   # Parameter configuration files
+├── docs/                     # Project documentation
+├── sensors/                  # LiDAR and sensor integration scripts
+├── README.md                 # Project overview (this file)
+├── main.py                   # Main script for drone control and logic
+├── requirements.txt          # Python dependencies
+└── system_architecture.png   # System architecture diagram
+```
+
+---
+
+## 📸 Project Demo – Drone Setup
+
+| Setup View 1 | Setup View 2 |
+|--------------|--------------|
+| ![Setup 1](images/drone_setup1.jpg) | ![Setup 2](images/drone_setup2.jpg) |
+
+| Setup View 3 |
+|--------------|
+| ![Setup 3](images/drone_setup3.jpg) |
+
+> These images show the drone's internal wiring, Raspberry Pi placement, and sensor modules including GPS and LiDAR.
+
+---
+
+## 🛠️ Getting Started (for Demonstration)
+
+> ⚠️ Note: A physical drone, GPS, and LiDAR module are needed to fully test this system.
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/ManojCodeCraft/Autonomous-Drone-Obstacle-Avoidance.git
-
-Navigate to the project directory:​
 cd Autonomous-Drone-Obstacle-Avoidance
+```
 
-Install the required packages:​
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-Usage
-To initiate the drone's autonomous navigation system, run:​
+### 3. Run the System
+
+```bash
 python main.py
+```
 
-Ensure that all necessary hardware components are properly connected and configured before launching the script.​
+---
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.​
+## 🎯 Impact & Applications
 
-License
-This project is licensed under the MIT License.​
+| Domain             | Application Example                                       |
+|--------------------|-----------------------------------------------------------|
+| Disaster Response  | Autonomous drones scanning collapsed structures           |
+| Defense & Security | Surveillance in GPS-denied environments                   |
+| Smart Delivery     | Navigating indoor/outdoor routes while avoiding obstacles |
+| Research & R&D     | Rapid prototyping for drone AI navigation systems         |
 
-Acknowledgments
-Thanks to all contributors and the open-source community for their invaluable support and resources.
-Special thanks to IIITDM-Kurnool
+---
+
+## 🎓 Built At – IIITDM Kurnool
+
+![IIITDM Kurnool](images/iiitdm_knl.jpg)
+
+> This project was developed during my undergraduate journey at **IIITDM Kurnool** as part of an IoT lab initiative.
+
+
+## 🧑‍💻 About Me
+
+**Manoj Kumar**  
+Aspiring Software Developer & IoT Enthusiast | Final Year B.Tech CSE Student  
+- 📧 Email: [aulakagarimanojkumar@gmail.com](mailto:aulakagarimanojkumar@gmail.com)  
+- 🔗 LinkedIn: [linkedin.com/in/manoj-kumar-a-21ab69258](https://www.linkedin.com/in/manoj-kumar-a-21ab69258/)  
+- 💻 GitHub: [github.com/ManojCodeCraft](https://github.com/ManojCodeCraft)
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
