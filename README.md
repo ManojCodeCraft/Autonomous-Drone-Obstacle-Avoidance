@@ -37,13 +37,14 @@ Developed during my undergraduate journey, this project served as an impactful d
 
 ```
 Autonomous-Drone-Obstacle-Avoidance/
-├── lidar_sensor/              # LiDAR data parsing and logic
-├── navigation/                # GPS and coordinate logic
-├── drone_control/             # Motor interface and flight logic
-├── images/                    # Diagrams, screenshots
-├── main.py                    # Execution script
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
+├── Tests/                     # Video demonstration and test scenarios
+├── config/                   # Parameter configuration files
+├── docs/                     # Project documentation
+├── sensors/                  # LiDAR and sensor integration scripts
+├── README.md                 # Project overview (this file)
+├── main.py                   # Main script for drone control and logic
+├── requirements.txt          # Python dependencies
+└── system_architecture.png   # System architecture diagram
 ```
 
 ---
