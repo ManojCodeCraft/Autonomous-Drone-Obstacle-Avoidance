@@ -55,13 +55,17 @@ Autonomous-Drone-Obstacle-Avoidance/
 
 ---
 
-## 📸 Visual Overview
+## 📸 Project Demo – Drone Setup
 
-| Drone Hardware Setup        | Real-Time Obstacle Mapping    |
-|-----------------------------|-------------------------------|
-|   |   |
+| Setup View 1 | Setup View 2 |
+|--------------|--------------|
+| ![Setup 1](images/drone_setup1.jpg) | ![Setup 2](images/drone_setup2.jpg) |
 
-> *(Insert screenshots if available — code output, physical setup, etc.)*
+| Setup View 3 |
+|--------------|
+| ![Setup 3](images/drone_setup3.jpg) |
+
+> These images show the drone's internal wiring, Raspberry Pi placement, and sensor modules including GPS and LiDAR.
 
 ---
 
@@ -100,6 +104,13 @@ python main.py
 | Research & R&D     | Rapid prototyping for drone AI navigation systems         |
 
 ---
+
+## 🎓 Built At – IIITDM Kurnool
+
+![IIITDM Kurnool](images/iiitdm_knl.jpg)
+
+> This project was developed during my undergraduate journey at **IIITDM Kurnool** as part of an IoT lab initiative.
+
 
 ## 🧑‍💻 About Me
 
