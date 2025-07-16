@@ -1,54 +1,109 @@
-#Autonomous Drone Obstacle Avoidance
 
-#Overview
-This project focuses on developing an autonomous drone capable of navigating complex terrains by dynamically adjusting its altitude to avoid obstacles and adapt to varying ground elevations. Utilizing real-time sensor data, the drone intelligently modifies its flight path to ensure safe and efficient traversal of environments with uneven terrain.​
+# 🛸 Autonomous Drone Obstacle Avoidance System
 
-#Features
-Terrain-Adaptive Flight: The drone continuously assesses the terrain below and adjusts its height to maintain a safe distance from the ground, ensuring smooth navigation over hills, valleys, and other undulating landscapes.​
+**A GPS-enabled IoT Drone Project 
+---
 
-Obstacle Detection and Avoidance: Equipped with advanced sensors, the drone detects obstacles in its flight path and autonomously alters its trajectory to prevent collisions.​
+## 🧠 Summary
 
-Real-Time Sensor Integration: The system integrates data from various sensors to make immediate flight adjustments, enhancing responsiveness to sudden changes in the environment.​
+This project showcases a GPS-guided **autonomous drone** built using **Raspberry Pi**, **LiDAR sensors**, and **Python**, capable of detecting and avoiding obstacles in real-time.
 
-#Repository Structure
-sensors/: Contains modules responsible for interfacing with and processing data from the drone's sensors.​
+Developed during my undergraduate journey, this project served as an impactful demonstration of **IoT + Embedded Systems + Edge AI**, earning recognition in the **ISRO Challenge 2025**. It simulates real-world applications like disaster recovery, defense surveillance, and smart delivery systems.
 
-config/: Holds configuration files that define parameters for flight control, sensor thresholds, and other adjustable settings.​
+---
 
-docs/: Includes documentation related to the project, such as system architecture diagrams and user manuals.​
+## 🔧 Technologies & Tools Used
 
-main.py: The primary script that initializes the drone's systems and manages the flight control loop.​
+| Category       | Details                                                   |
+|----------------|-----------------------------------------------------------|
+| **Hardware**   | Raspberry Pi 4, LiDAR Sensor (360°), GPS Module, Drone Frame |
+| **Software**   | Python 3.x, RPi.GPIO, OpenCV, NumPy                        |
+| **Concepts**   | Real-Time Edge Processing, Obstacle Avoidance, IoT        |
+| **Tools**      | VS Code, Git, CLI                                          |
 
-requirements.txt: Lists the Python dependencies necessary to run the project.​
+---
 
-system_architecture.png: A visual representation of the system's architecture, illustrating the interaction between components.​
+## 🚀 Key Features
 
-Getting Started
-#Prerequisites
-Ensure you have Python installed on your system. The required Python packages are listed in requirements.txt.​
+- 🛰️ **GPS-Based Path Navigation**: Drone follows destination coordinates autonomously.
+- 🔍 **Real-Time Obstacle Avoidance**: Uses LiDAR to detect and avoid objects during flight.
+- ⚙️ **Modular Python Codebase**: Easy to integrate with new sensors or change flight logic.
+- 🧠 **Edge Computing**: Raspberry Pi handles all sensor inputs and decisions on-board.
+- 🏆 **ISRO Challenge 2025**: Qualified for the challenge demonstrating autonomous flight capabilities.
 
-#Installation
-Clone this repository:​
+---
+
+## 🗂️ Project Structure
+
+```
+Autonomous-Drone-Obstacle-Avoidance/
+├── lidar_sensor/              # LiDAR data parsing and logic
+├── navigation/                # GPS and coordinate logic
+├── drone_control/             # Motor interface and flight logic
+├── images/                    # Diagrams, screenshots
+├── main.py                    # Execution script
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
+```
+
+---
+
+## 📸 Visual Overview
+
+| Drone Hardware Setup        | Real-Time Obstacle Mapping    |
+|-----------------------------|-------------------------------|
+| ![Drone](images/drone.jpg)  | ![Mapping](images/lidar.png)  |
+
+> *(Insert screenshots if available — code output, physical setup, etc.)*
+
+---
+
+## 🛠️ Getting Started (for Demonstration)
+
+> ⚠️ Note: A physical drone, GPS, and LiDAR module are needed to fully test this system.
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/ManojCodeCraft/Autonomous-Drone-Obstacle-Avoidance.git
-
-Navigate to the project directory:​
 cd Autonomous-Drone-Obstacle-Avoidance
+```
 
-Install the required packages:​
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-Usage
-To initiate the drone's autonomous navigation system, run:​
+### 3. Run the System
+
+```bash
 python main.py
+```
 
-Ensure that all necessary hardware components are properly connected and configured before launching the script.​
+---
 
-#Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.​
+## 🎯 Impact & Applications
 
-#License
-This project is licensed under the MIT License.​
+| Domain             | Application Example                                       |
+|--------------------|-----------------------------------------------------------|
+| Disaster Response  | Autonomous drones scanning collapsed structures           |
+| Defense & Security | Surveillance in GPS-denied environments                   |
+| Smart Delivery     | Navigating indoor/outdoor routes while avoiding obstacles |
+| Research & R&D     | Rapid prototyping for drone AI navigation systems         |
 
-#Acknowledgments
-Thanks to all contributors and the open-source community for their invaluable support and resources.
-Special thanks to IIITDM-Kurnool
+---
+
+## 🧑‍💻 About Me
+
+**Manoj Kumar**  
+Aspiring Software Developer & IoT Enthusiast | Final Year B.Tech CSE Student  
+- 📧 Email: [aulakagarimanojkumar@gmail.com](mailto:aulakagarimanojkumar@gmail.com)  
+- 🔗 LinkedIn: [linkedin.com/in/manoj-kumar-a-21ab69258](https://www.linkedin.com/in/manoj-kumar-a-21ab69258/)  
+- 💻 GitHub: [github.com/ManojCodeCraft](https://github.com/ManojCodeCraft)
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
