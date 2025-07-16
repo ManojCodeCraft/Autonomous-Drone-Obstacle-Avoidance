@@ -21,11 +21,11 @@ Developed during my undergraduate journey, this project served as an impactful d
 | **Tools**      | VS Code, Git, CLI                                          |
 
 ---
-## 📸 System Architecture
+## 🧭 System Architecture
 
+![System Architecture](images/system_architecture.png)
 
-This diagram shows how LiDAR, GPS, and Raspberry Pi are integrated into the drone system.
-
+> This diagram illustrates how components like the Raspberry Pi, LiDAR, GPS, and motor controller communicate within the system.
 
 ## 🚀 Key Features
 
