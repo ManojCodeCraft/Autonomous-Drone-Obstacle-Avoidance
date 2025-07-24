@@ -2,7 +2,24 @@
 
 GPS-enabled IoT Drone Project 
 ---
+## 🔍 At a Glance
 
+### 🧩 Problem it Solves
+Develops an **autonomous drone system with GPS-based navigation** that can intelligently **detect and avoid obstacles** mid-flight using depth estimation and LiDAR. It’s designed to operate in outdoor or semi-structured environments where GPS is available but **obstacle detection is critical** for safe mission execution.
+
+### ✨ Key Features
+- 🚁 **Autonomous flight navigation using GPS coordinates**
+- 🧱 **Real-time obstacle detection** with TFMini-S LiDAR
+- 📷 **Depth estimation** using camera module + OpenCV
+- 🧠 **Decision logic** to halt or redirect flight path upon obstacle encounter
+- 🔌 **MAVLINK integration** for streamlined control over PX4 flight stack
+- 🧪 **Field-tested with GPS data and simulated obstacle zones**
+
+### 🛠️ Tech Stack
+- **Hardware**: Raspberry Pi 5, TFMini-S LiDAR, GPS Module, Camera Module  
+- **Software**: MAVLINK Protocols, OpenCV, Python  
+- **Tools**:Mission Planner, QGroundControl, Git, Ubuntu 20.04  
+---
 ## 🧠 Summary
 
 This project showcases a GPS-guided **autonomous drone** built using **Raspberry Pi**, **LiDAR sensors**, and **Python**, capable of detecting and avoiding obstacles in real-time.
